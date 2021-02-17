@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricardo Sánchez</title>
+    <link rel="icon" type="imagenes/jpeg" href="imagenes/icono.jpeg" />
+    <!-- <link rel="stylesheet" href="css/media.css" media="screen and (max-width:768px)" /> -->
+    <link rel="stylesheet" href="css/estilos.css" />
+
+</head>
+
+<body>
+    <span id="hamburguesa" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a class="hamburguesaLink" href="#portafolio">Portafolio</a>
+        <a class="hamburguesaLink" href="#experiencia">Experiencia</a>
+        <a class="hamburguesaLink" href="#contacto">Trabajemos Juntos</a>
+    </div>
+    <div id="main">
+        <header class="header">
+            <div class="container">
+                <figure class="logo">
+                    <img src="imagenes/logo.jpeg" alt="Logo de http://ricardosanchez.com" witdh="60" height="60" />
+                </figure>
+                <nav class="menu">
+                    <ol>
+                        <li>
+                            <a class="link" href="#portafolio" onclick="scroll();">Portafolio</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#experiencia">Experiencia</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#contacto">Trabajemos Juntos</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </header>
+        <section class="hero">
+            <div class="container">
+                <h1>
+                    Hola! Soy <strong>Ricardo Sánchez</strong><br/> Desarrollador <strong>Web</strong> con <br/>pasión por los <strong>Idiomas.</strong>
+                </h1>
+                <img class="hero-image" src="imagenes/foto2.png" alt="mi foto" width="500">
+            </div>
+        </section>
+        <section id="portafolio" class="portfolio">
+            <div class="container">
+                <h2>Portafolio (Proyectos Destacados)</h2>
+                <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-title">Platzi Video</h3>
+                        <h6 class="project-course">React Native / React</h6>
+                        <p class="project-date"><small><strong>Fecha:</strong> 23/05/2020</small></p>
+                        <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platiz.com/native</small></p>
+                        <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de navegación</p>
+                    </div>
+                    <figure class="project-imageContainer">
+                        <img class="project-image" src="imagenes/platzi-video.png" alt="platzi video" witdh="400" height="400">
+                    </figure>
+                </article>
+                <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-title">Platzi Video</h3>
+                        <h6 class="project-course">React Native / React</h6>
+                        <p class="project-date"><small><strong>Fecha:</strong> 23/05/2020</small></p>
+                        <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platiz.com/native</small></p>
+                        <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de navegación</p>
+                    </div>
+                    <figure class="project-imageContainer">
+                        <img class="project-image" src="imagenes/platzi-video.png" alt="platzi video" witdh="400" height="400">
+                    </figure>
+                </article>
+            </div>
+        </section>
+        <section id="experiencia" class="event-list">
+            <div class="container">
+                <h2 class="event-list-title">
+                    Más sobre mi experiencia
+                </h2>
+                <article class="event">
+                    <figure class="event-imagContainer">
+                        <img class="event-image" src="imagenes/clux.jpg" alt="cosmic lux imagen" witdh="200" height="200">
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">PlatziConf Mexico 2020</h3>
+                        <p class="event-description">El evento mas grande sobre gente que quiere aprender mas de internet. En este evento te comparto como llevar una vida de aprendizaje.</p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=h1OEJegtLhA" target="_blank">Ver Plática</a>
+                    </div>
+
+                </article>
+                <article class="event">
+                    <figure class="event-imagContainer">
+                        <div class="iframe-video">
+                            <iframe class="iframeVideo" width="560" height="315" src="https://www.youtube.com/embed/ZE5GFeUs_Ug" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <!-- <img class="event-image" src="imagenes/dclux.jpg" alt="cosmic lux imagen" witdh="200" height="200"> -->
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">PlatziConf Mexico 2020</h3>
+                        <p class="event-description">El evento mas grande sobre gente que quiere aprender mas de internet. En este evento te comparto como llevar una vida de aprendizaje.</p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=h1OEJegtLhA" target="_blank">Ver Plática</a>
+                    </div>
+
+                </article>
+                <article class="event">
+                    <figure class="event-imagContainer">
+                        <img class="event-image" src="imagenes/balux.jpg" alt="cosmic lux imagen" witdh="200" height="200">
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">PlatziConf Mexico 2020</h3>
+                        <p class="event-description">El evento mas grande sobre gente que quiere aprender mas de internet. En este evento te comparto como llevar una vida de aprendizaje.</p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=h1OEJegtLhA" target="_blank">Ver Plática</a>
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event-imagContainer">
+                        <img class="event-image" src="imagenes/elux.jpg" alt="cosmic lux imagen" witdh="200" height="200">
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">PlatziConf Mexico 2020</h3>
+                        <p class="event-description">El evento mas grande sobre gente que quiere aprender mas de internet. En este evento te comparto como llevar una vida de aprendizaje.</p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=h1OEJegtLhA" target="_blank">Ver Plática</a>
+                    </div>
+
+                </article>
+            </div>
+        </section>
+        <section class="contact" id="contacto">
+            <div class="container">
+                <form class="form-email" action="/suscripcion/">
+                    <h3>¿Creamos algo juntos?</h3>
+                    <input type="text" placeholder="Déjame tu email" id="email">
+                    <button>Enviar</button>
+                </form>
+                <div class="social">
+                    <a href="https://twitter.com/riick_S" class="social-link twitter" target="_blank"></a>
+                    <a href="https://www.facebook.com/Riick.f" class="social-link facebook" target="_blank"></a>
+                    <a href="https://github.com/RiickS" class="social-link github" target="_blank"></a>
+                    <a href="https://www.instagram.com/r1ck_s" class="social-link instagram" target="_blank"></a>
+                    <a href="https://www.linkedin.com/in/ricardo-sanchez-82794a185" class="social-link linkedin" target="_blank"></a>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div>
+                    <p>"Curso de Desarrollo Web Online 2020"
+                        <img src="imagenes/icono.jpeg" alt="icono" height="60" width="60"></p>
+                </div>
+                <div>
+                    <p>Designed with love 👋 by <a class="footer-url" href="https://instagram.com/r1ck_s" target="_blank">@r1ck_s</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        var userSelection = document.querySelectorAll('.hamburguesaLink,.link');
+
+        for (let i = 0; i < userSelection.length; i++) {
+            userSelection[i].addEventListener("click", function(e) {
+                e.preventDefault();
+                var href = userSelection[i].getAttribute("href");
+                document.querySelector(href).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            })
+        }
+    </script>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "300px";
+            document.getElementById("main");
+            document.querySelector(".closebtn").style.display = "inline-block";
+            document.querySelector("#hamburguesa").style.display = "none";
+
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0px";
+            document.getElementById("main");
+            document.querySelector("#hamburguesa").style.display = "flex";
+            document.querySelector(".closebtn").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
